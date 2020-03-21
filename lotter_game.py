@@ -3,7 +3,7 @@
 //Lab 2
 //UMUC 300 SDEV
 //March 19, 2020
-This program to make a Pick 10 Value
+This program to make a Pick 3 and 4 Pick lotter numbers 
 """
 import random
 import sys
