@@ -14,7 +14,7 @@ def main():
 
     # Initialize Selection Value
     selection = 0
-    # This program will generate a pick 3 or Pick 4 of random numbers
+    # This program will generate a pick 10 of random numbers that range between  0-9
     while selection < 2:
         # Display Menu
         print('Welcome to the Lottery Game')
@@ -28,13 +28,22 @@ def main():
         selection = int(input())
 
         if selection == 1:
+            """Selection for Pick3"""
             print(pick3())
 
         if selection == 2:
+            """Selection for pick 4"""
             print(pick4())
 
         if selection == 3:
             end_program()
+
+        else:
+            """Invalid selection"""
+            print("\r\n###############################6###############\r\n"
+                  " * You have entered an invalid selection * "
+                  " \r\n##############################################\r\n "
+)
 
 
 def pick3():
