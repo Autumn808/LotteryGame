@@ -15,7 +15,7 @@ def main():
     # Initialize Selection Value
     selection = 0
     # This program will generate a pick 10 of random numbers that range between  0-9
-    while selection < 2:
+    while selection < 3:
         # Display Menu
         print('Welcome to the Lottery Game')
         print('Main Menu')
